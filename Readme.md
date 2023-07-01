@@ -101,7 +101,7 @@ Example:-
     	echo Hello world	
 ```
 # This is Still not completed please hold on and wait for more.
-
+# If you having in problem to understand this guide you message here or [Telegram](https://t.me/Verger_py) me
 # If you get any mistake in this repo or you want to contribute then feel free to 
 
 
