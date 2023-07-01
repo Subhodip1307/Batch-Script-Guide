@@ -1,7 +1,8 @@
 # Description 
-A bat script , also known as a batch script or batch file, is a type of script or program that contains a series of commands that are executed Prompt. It a simple wat to automate tasks in windows operating systems. In this repo you will get simple  notes for bat script which will help to work with bat script and I tried my best  to explain all commands briefly. 
+A bat script, also known as a batch script or batch file, is a type of script or program that contains a series of commands that are executed Prompt. It is a simple way to automate tasks in the Windows operating system. In this repo, you will get simple  notes for bat script which will help to work with bat script and I tried my best to explain all commands briefly. 
+
 # Get start with bat file
-Here I will explain you how you can create and write commands in a bat file and how can you edit this file in future. If you already know how to create and work with bat file then go to commands(#com) section to read about the commands.
+Here I will explain you how you can create and write commands in a bat file and how can you edit this file in future. If you already know how to create and work with bat file then go to commands (#com) section to read about the commands.
 So first learn what are the requirements for a bat file, so basically you don’t need anything in order to work with a bat file except Windows operating system and a simple text editor (notepad, Vs code, Subline text) here we will use notepad.
 Now we will create our first bat file in order to do that open your CMD or Terminal in a suitable location ( suggested : create a folder in Desktop and open there), after opening Terminal or CMD just type the following commands and press enter
     ```bash
@@ -23,22 +24,22 @@ Write the following command in notepad and save the file. Type the name of file 
 This command in bat script is use to print any value in terminal, add this as shown in example and try (run it by typing it name in terminal other it wouldn’t work until you add ‘pause’ command).
 Example:-
 	```bash
-        echo Hello world
-```
+ 	 echo Hello world
+	```
 
 2.	pause
 It’s a very important command in bat script, this command normally use at the end of the script, this command wouldn’t allow your code to do the next step or close the code until you press any key, just add it to your bat file and try it (after adding this command you can the file just by clicking on the file ).
 Example:-
 	```bash
-    echo Hello world
-    pause
-```
+    	echo Hello world
+    	pause
+	```
 In this case you can pause your code for being execute until user press any key but there is a awesome trick by which you can stop the code a time let look at that
 Example:-
 	```bash
-    echo Hello world
-    ping 127.0.0.1 -n 3 > nul
-```
+    	echo Hello world
+    	ping 127.0.0.1 -n 3 > nul
+	```
 In this code you can see there is number 3 after ‘-n’ that’s mean the code will wait for 3 second , you can change the value as your requirements like 4 or 5 sec etc. But there is one problem if you use this line then you have to run the file as administrator then it will work.
 
 3.	@echo off
@@ -46,29 +47,35 @@ It’s the most important command in bat file , this should be added at the firs
  Example:-
 	```bash
 		@echo off
-        echo Hello world
-	    echo don’t forget to give a start
-```
+        	echo Hello world
+	 	echo don’t forget to give a start
+	```
 I would like to suggest you to run the code two times , first run without “@echo off” and then run by including “@echo off” and see the differences.
 
 4.	 ren
 If you are coming from a programming background its goanna very easy for you to know the use of the command , ‘ren’ or ‘Ren’ is used for giving comment in the code (if you don’t know want is a comment then make a search on internet)
 Example:-
 	```bash
-    echo Hello world
+    	echo Hello world
 	ren Hi, my name is subho
-```
+	```
    
 5.	Title <name>
 Title is a very useful command in bat scripting by using this you can a give a title for your script, if you can’t understand see picture and see difference .
-<h5 style="text-align: center;">Before adding the code</h5>
-<h5 style="text-align: center;">After adding the code</h5>
+					<h5 style="text-align: center;">Before adding the code</h5>
+     ![before](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/ec67ab9b-608d-4d27-bdb4-89ed290c30f0)
+					<h5 style="text-align: center;">After adding the code</h5>
+![before](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/573ba17e-335d-43a1-bce7-711158a087ef)
+
+
+   
 Example:-
+
 	```bash
-    @echo off
-    Title Subho1307
-    echo Hello world	
-```
+   	@echo off
+    	Title Subho1307
+    	echo Hello world	
+	```
 
 
 
