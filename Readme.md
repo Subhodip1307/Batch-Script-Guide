@@ -1,4 +1,10 @@
-# Description 
+<div align="center"> 
+
+![Screenshot 2023-07-02 022244](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/c9b1a5bd-a3ef-4ed8-9119-2acb494fe21e)
+<h3>Welcome To Batch Script Full Guide</h3>
+</div>
+
+<h1 align="center">Description</h1> 
 A bat script is also known as a batch script or batch file, is a type of script or program that contains a series of commands that are executed Prompt. It is a simple way to automate tasks in the Windows operating system. In this repo, you will get simple  notes for bat script which will help to work with bat script and I tried my best to explain all commands briefly. 
 
 # Get started with bat file
@@ -85,13 +91,13 @@ Example:-
    
 5.	Title <name>
 
-Title is a very useful command in bat scripting by using this you can give a title for your script, if you can’t understand see the picture and see difference.
-					<h5 style="text-align: center;">Before adding the code</h5>
+Title is a very useful command in bat scripting by using this you can give a title for your script, if you can’t understand see the picture and see the difference.
+					<div align="center"> <h5>Before adding the code</h5>
      ![before](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/ec67ab9b-608d-4d27-bdb4-89ed290c30f0)
 					<h5 style="text-align: center;">After adding the code</h5>
 ![before](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/573ba17e-335d-43a1-bce7-711158a087ef)
 
-
+</div>
    
 Example:-
 
