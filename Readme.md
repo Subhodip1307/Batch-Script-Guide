@@ -21,6 +21,7 @@ Write the following command in Notepad and save the file. Type the name of file 
 <h2 id="com"> In This section we will see almost most of the commands of bat script with examples</h2>
 
 1.	echo
+
 This command in bat script is use to print any value in terminal, add this as shown in example and try (run it by typing it name in terminal other it wouldn’t work until you add ‘pause’ command).
 Example:-
 	```bash
@@ -28,6 +29,7 @@ Example:-
 	```
 
 2.	pause
+
 It’s a very important command in bat script, this command normally uses at the end of the script, this command wouldn’t allow your code to do the next step or close the code until you press any key, just add it to your bat file and try it (after adding this command you can the file just by clicking on the file ).
 Example:-
 	```bash
@@ -43,6 +45,7 @@ Example:-
 In this code you can see there is a number 3 after ‘-n’ that’s mean the code will wait for 3 seconds, you can change the value to your requirements like 4 or 5 sec, etc. But there is one problem if you use this line then you have to run the file as administrator then it will work.
 
 3.	@echo off
+
 It’s the most important command in a bat file, this should be added at the first of the code. If I say it in very simple words, it keeps clean your code just by hiding some process so you should add this and if you need more information about it then you make a search.
  Example:-
 	```bash
@@ -53,6 +56,7 @@ It’s the most important command in a bat file, this should be added at the fir
 I would like to suggest you to run the code two times, first run without “@echo off” and then run by including “@echo off” and see the differences.
 
 4.	 ren
+
 If you are coming from a programming background it goanna very easy for you to know the use of the command, ‘ren’ or ‘Ren’ is used for giving comments in the code (if you don’t know want is a comment then make a search on the internet)
 Example:-
 	```bash
@@ -61,6 +65,7 @@ Example:-
 	```
    
 5.	Title <name>
+
 Title is a very useful command in bat scripting by using this you can give a title for your script, if you can’t understand see the picture and see difference.
 					<h5 style="text-align: center;">Before adding the code</h5>
      ![before](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/ec67ab9b-608d-4d27-bdb4-89ed290c30f0)
