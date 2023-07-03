@@ -197,13 +197,42 @@ Set HOME=India
 Ren in case of variable letter case doesn’t matters but preferred to use Upper case 
 ```
 
+Now let’s try to understand what’s happening here and how does it working. So I have already learned to use variables and how can we store values in them, the same thing is applying here, but in this example, we have to use a different command which is ‘/p’ and then we have given a name of the variable (we used ‘name’ as a variable) then we have put a placeholder after ‘=’ (if you don’t know what is a placeholder then please wait I will an image so that you can understand), let see the structure of the code.
 
+ ```bash
+Set  /p <variable name> = <placeholder>
+Set  /p <variable name> = <placeholder>
+```
+I hope how to edit these fields and use this so I am not explaining how to edit it.
+Let’s run our first example of input-taking and see what happens.
 
+<h3 align="center">The Code</h3>
 
+```bash
+Set /p name= Subho
+Set /p HOME=India
+Ren in case of variable letter case doesn’t matters but preferred to use Upper case 
+```
 
+<h3 align="center">After running the code </h3>
+<div>
+<div align="left">
+	
+![input1](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/3c836bf4-4978-497a-a1c1-a2a9fb7f20d6)
 
-# This is Still not completed please hold on and wait for more. In out future updates we will try to increase the readbility of the guide 
-# If you having in problem to understand this guide you message here or [Telegram](https://t.me/Verger_py) me
+</div>
+
+<div align="right">
+
+![part2](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/9b6a1126-a9cf-4a5b-811d-c250815dfdf0)
+
+</div>
+</div>
+
+<h4><i>I will expalin this picture in next updates</i></h4>
+
+# This is Still not completed please hold on and wait for more. In our future updates we will try to increase the readability of the guide 
+# If you facing any problem for  understanding this guide you message me here or [Telegram](https://t.me/Verger_py) me
 # If you get any mistake in this repo or you want to contribute then feel free to 
 
 
