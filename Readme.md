@@ -113,10 +113,11 @@ In batch script there is two methods to store a value in a variable one is for s
 1.	Variables for String values
 
 If you want to store a string value in a variable then use this flowing command
-	```bash
+```bash
 	Set <variables name> = <put the value>
 ```
-This is only for storing string values(like :- name, words, letters etc.), change the ‘<variable name>’ with a required name and change the ‘ <put the value>’ with a suitable value .
+
+This is only for storing string values(like:- name, words, letters, etc.), change the ‘<variable name>’ with a required name, and change the ‘ <put the value>’ with a suitable value.
 
 Example:-
 
@@ -126,7 +127,7 @@ Set HOME=India
 Ren in case of variable letter case doesn’t matters but preferred to use Upper case 
 ```
 
-Now let’s know how can we print the values what we have saved in variables
+Now let’s know how can we print the values that we have saved in variables
 
 
 Example:-
@@ -155,6 +156,7 @@ Ren as example
 Set  /a AGE= 20
 Ren in case of variable letter case doesn’t matters but preferred to use Upper case 
 ```
+
  Now if  you want to print the value then it’s quite simple, just use ‘%’ after and before of the variable name.
   Example:-
 
@@ -171,7 +173,7 @@ pause
 
 # Predefined and Environment variables
 
-In batch Script there is some Predefined and Environment variables. Simpely it can be said that your computer has some variables with some specific values, which you can use as per your requirement. In this I would not explain them so kindly search in google. I will provide some examples regarding them .
+In batch Script, there is some Predefined and Environment variables. Simpely it can be said that your computer has some variables with some specific values, which you can use as per your requirement. In this I would not explain them so kindly search in google. I will provide some examples regarding them .
 
 ```bash
 Echo %RANDOM%
@@ -188,6 +190,7 @@ pause
 In this section we will learn about how we can take inputs from the user. First see an example then we will try to understand how the command is working.
 
 Example:-
+
 ```bash
 Set name= Subho
 Set HOME=India
