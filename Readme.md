@@ -5,7 +5,7 @@
 </div>
 
 <h1 align="center">Description</h1> 
-A bat script is also known as a batch script or batch file, is a type of script or program that contains a series of commands that are executed Prompt. It is a simple way to automate tasks in the Windows operating system. In this repo, you will get simple  notes for bat script which will help to work with bat script and I tried my best to explain all commands briefly. 
+A bat script is also known as a batch script or batch file, is a type of script or program that contains a series of commands that are executed Prompt. It is a simple way to automate tasks in the Windows operating system. In this repo, you will get simple  notes for bat script which will help to work with bat script and I tried my best to explain all commands briefly and there is some example code written so use it for your learning. 
 
 # Get started with bat file
 Here I will explain to you how you can create and write commands in a bat file and how can you edit this file in the future. If you already know how to create and work with bat files then go to the [commands](#com)  section to read about the commands.
@@ -13,19 +13,19 @@ So first learn what are the requirements for a bat file, so basically you don’
 Now we will create our first bat file in order to do that open your CMD or Terminal in a suitable location ( suggested: create a folder in Desktop and open there), after opening Terminal or CMD just type the following commands and press enter
 
 ```bash
-	notepad <give a file name>.bat
+notepad <give a file name>.bat
 ```
     
 Here the ‘notepad’ command will open Notepad for you and after the command, give a required name like ‘myfile’ and at the end of the command don’t forget to give ‘.bat’ extension otherwise it will not work, after doing it, the command should look like this –
 
 ```bash
-	notepad myfile.bat
+notepad myfile.bat
 ```
     
 After clicking enter it will create a bat file with the name of ‘myfile.bat’ and open Notepad so that you can type your code here, so go further and let’s learn to print ‘Hello world'.
 
 ```bash
-	Echo Hello world
+Echo Hello world
 ```
      
 Write the following command in Notepad and save the file. Type the name of file with extension in the same terminal or CMD and press enter and see what happens. But if you just click on the file, it wouldn’t show anything and it will close within a sec to avoid it and make our scripting, we talk about this 		briefly in the Commands Section.If you want to edit the file then just repeate this command (notepad myfile.bat)
@@ -39,7 +39,7 @@ This command in bat script is used to print any value in the terminal, add this 
 Example:-
 
 ```bash
-	echo Hello world
+echo Hello world
 ```
 
 2.	pause
@@ -49,8 +49,8 @@ It’s a very important command in bat script, this command normally uses at the
 Example:-
 
 ```bash
-	echo Hello world
-	pause
+echo Hello world
+pause
 ```
  
 In this case, you can pause your code for being executed until the user presses any key but there is an awesome trick by which you can stop the code a time let look at that example.
@@ -58,8 +58,8 @@ In this case, you can pause your code for being executed until the user presses 
 Example:-
 
 ```bash
-    	echo Hello world
-    	ping 127.0.0.1 -n 3 > nul
+echo Hello world
+ping 127.0.0.1 -n 3 > nul
 ```
  
 In this code you can see there is a number 3 after ‘-n’ that’s mean the code will wait for 3 seconds, you can change the value to your requirements like 4 or 5 sec, etc. But there is one problem if you use this line then you have to run the file as administrator then it will work.
@@ -71,22 +71,23 @@ It’s the most important command in a bat file, this should be added at the fir
  Example:-
  
 ```bash
-		@echo off
-        	echo Hello world
-	 	echo don’t forget to give a start
+@echo off
+echo Hello world
+echo don’t forget to give a start
 ```
  
 I would like to suggest you, to run the code two times, first run without “@echo off” and then run by including “@echo off” and see the differences.
 
-4.	 ren
+4.	 rem
 
-If you are coming from a programming background it goanna very easy for you to know the use of the command, ‘ren’ or ‘Ren’ is used for giving comments in the code (if you don’t know want is a comment then make a search on the internet)
+If you are coming from a programming background it goanna very easy for you to know the use of the command, ‘rem’ or ‘Rem’ is used for giving comments in the code (if you don’t know want is a comment then make a search on the internet)
 
 Example:-
 
 ```bash
-    	echo Hello world
-	ren Hi, my name is Subho
+echo Hello world
+rem Hi, my name is Subho
+pause
 ```
    
 5.	Title <name>
@@ -95,16 +96,19 @@ Title is a very useful command in bat scripting by using this you can give a tit
 					<div align="center"> <h5>Before adding the code</h5>
      ![before](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/ec67ab9b-608d-4d27-bdb4-89ed290c30f0)
 					<h5 style="text-align: center;">After adding the code</h5>
-![before](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/573ba17e-335d-43a1-bce7-711158a087ef)
+![title](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/8db2b142-e959-4ba0-86b1-24ab2101b867)
+
 
 </div>
    
 Example:-
 
 ```bash
-   	@echo off
-    	Title Subho1307
-    	echo Hello world	
+@echo off
+Title Subho1307
+echo Hello world
+pause
+rem using pause to see the changes	
 ```
 
 # Working with variables
@@ -114,7 +118,7 @@ In batch script there is two methods to store a value in a variable one is for s
 
 If you want to store a string value in a variable then use this flowing command
 ```bash
-	Set <variables name> = <put the value>
+Set <variables name> = <put the value>
 ```
 
 This is only for storing string values(like:- name, words, letters, etc.), change the ‘<variable name>’ with a required name, and change the ‘ <put the value>’ with a suitable value.
