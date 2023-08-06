@@ -148,7 +148,7 @@ pause
 To print the variable value just use ‘%’ before and after the variable name as I shown in the example.  
 Here I have shown different methods by using you can print values, and I hope you why we should use pause at the end of the code. 
 
-2.	Variables for String values
+2.	Variables for Integer/Numbers values
 
 Now let’s know how can we store number /integer values to a variable .
 To store a number in a variable you just need to add ‘/a’ after the ‘set’ command.
@@ -165,14 +165,7 @@ Ren in case of variable letter case doesn’t matters but preferred to use Upper
   Example:-
 
 ```bash
-Set  /a AGE= 20
-Set HOME=India
-Echo my name is %name%
-Echo my home is %HOME%
-Echo %HOME%
-Echo my age is %AGE%
-Echo %AGE%
-pause
+echo your age is %AGE%
 ```
 
 # Predefined and Environment variables
@@ -213,10 +206,13 @@ Let’s run our first example of input-taking and see what happens.
 <h3 align="center">The Code</h3>
 
 ```bash
-Set /p name= Subho
-Set /p HOME=India
+set /p name= What is your name 
+set /p age= what is your age  
 Ren in case of variable letter case doesn’t matters but preferred to use Upper case 
+echo Your name is %name%
+echo your age is %age%
 ```
+Here we have taken two input and store that user input into two variables and in variables section we have learnt how to print a variable here we have done the same thing now let’s see out put from the flowing picture .
 
 <h3 align="center">After running the code </h3>
 <div>
