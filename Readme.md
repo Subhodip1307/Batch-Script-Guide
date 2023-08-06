@@ -216,14 +216,14 @@ Here we have taken two inputs and stored that user input into two variables, and
 
 <h3 align="center">After running the code </h3>
 <div>
-<div align="left">
+<div align="center">
 	
 ![takinginput1](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/8f89f0a7-91b7-4aca-8689-004c314bc97d)
 
 
 </div>
 
-<div align="right">
+<div align="center">
 
 ![takinginput2](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/5adf715b-0ab2-4b28-b49d-186af9c4becd)
 
