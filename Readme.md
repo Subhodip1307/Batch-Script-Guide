@@ -150,7 +150,7 @@ Here I have shown different methods by using you can print values, and I hope yo
 
 2.	Variables for Integer/Numbers values
 
-Now let’s know how can we store number /integer values to a variable .
+Now let’s know how can we store number /integer values to a variable.
 To store a number in a variable you just need to add ‘/a’ after the ‘set’ command.
 
 ```bash
@@ -170,7 +170,7 @@ echo your age is %AGE%
 
 # Predefined and Environment variables
 
-In batch Script, there is some Predefined and Environment variables. Simpely it can be said that your computer has some variables with some specific values, which you can use as per your requirement. In this I would not explain them so kindly search in google. I will provide some examples regarding them .
+In batch Script, there is some Predefined and Environment variables. Simply it can be said that your computer has some variables with some specific values, which you can use as per your requirement. In this I would not explain them so kindly search in google. I will provide some examples regarding them.
 
 ```bash
 Echo %RANDOM%
@@ -184,7 +184,7 @@ pause
   
 # Taking Input
 
-In this section we will learn about how we can take inputs from the user. First see an example then we will try to understand how the command is working.
+In this section, we will learn about how we can take input from the user. First, see an example then we will try to understand how the command is working.
 
 Example:-
 
@@ -212,7 +212,7 @@ Ren in case of variable letter case doesn’t matters but preferred to use Upper
 echo Your name is %name%
 echo your age is %age%
 ```
-Here we have taken two inputs and stored that user input into two variables, and in the variables section we have learned how to print a variable. Here we have done the same thing. Now let’s see the the output from the flowing picture.
+Here we have taken two inputs and stored that user input into two variables, and in the variables section we have learned how to print a variable. Here we have done the same thing. Now let’s see the output from the flowing picture.
 
 <h3 align="center">After running the code </h3>
 <div>
@@ -231,11 +231,11 @@ Here we have taken two inputs and stored that user input into two variables, and
 </div>
 </div>
 
-<h4><i>I will expalin this picture in next updates</i></h4>
+In the picture, the red mark means it’s the inputs which are given by me I hope you understand, for better-understanding  check-in “Examples bat” folder for examples bat scripts.  
 
-# This is Still not completed please hold on and wait for more. In our future updates we will try to increase the readability of the guide 
+# This is Still not completed please hold on and wait for more. In our future updates, we will try to increase the readability of the guide 
 # If you facing any problem for  understanding this guide you message me here or [Telegram](https://t.me/Verger_py) me
-# If you get any mistake in this repo or you want to contribute then feel free to 
+# If you get any mistake in this repo or you want to contribute then feel free to do that
 
 
 
