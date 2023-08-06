@@ -212,19 +212,21 @@ Ren in case of variable letter case doesn’t matters but preferred to use Upper
 echo Your name is %name%
 echo your age is %age%
 ```
-Here we have taken two input and store that user input into two variables and in variables section we have learnt how to print a variable here we have done the same thing now let’s see out put from the flowing picture .
+Here we have taken two inputs and stored that user input into two variables, and in the variables section we have learned how to print a variable. Here we have done the same thing. Now let’s see the the output from the flowing picture.
 
 <h3 align="center">After running the code </h3>
 <div>
 <div align="left">
 	
-![input1](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/3c836bf4-4978-497a-a1c1-a2a9fb7f20d6)
+![takinginput1](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/8f89f0a7-91b7-4aca-8689-004c314bc97d)
+
 
 </div>
 
 <div align="right">
 
-![part2](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/9b6a1126-a9cf-4a5b-811d-c250815dfdf0)
+![takinginput2](https://github.com/Subhodip1307/Batch-Script-Guide/assets/111901004/5adf715b-0ab2-4b28-b49d-186af9c4becd)
+
 
 </div>
 </div>
